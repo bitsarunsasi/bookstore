@@ -1,0 +1,21 @@
+<h4>Sign in</h4>
+<form [formGroup]="formSignIn">
+    <div>
+        <label for="email_id">Email</label>
+        <input id="email_id" type="text" formControlName="email">
+    </div>
+    <div>
+        <label for="password">Password</label>
+        <input id="password" type="text" formControlName="password">
+        <div>
+            <a href="#" routerLink="/forgot-password">Forgot password</a>
+        </div>
+    </div>
+    <div>
+        <button (click)="signIn()">Sign up</button>
+    </div>
+    <div>
+        Don't have an account?
+        <a href="#" routerLink="/sign-up">Sign up</a>
+    </div>
+</form>

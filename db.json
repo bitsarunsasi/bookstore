@@ -1,0 +1,122 @@
+{
+  "users": [
+    {
+      "name": "Arun",
+      "email": "arunsasi@gmail.com",
+      "password": "password",
+      "id": 1
+    },
+    {
+      "name": "Anoop",
+      "email": "anoop@gmail.com",
+      "password": "anoop123",
+      "id": 2
+    },
+    {
+      "name": "sachin",
+      "email": "sachin@admaren.com",
+      "password": "sachin123",
+      "id": 3
+    },
+    {
+      "name": "tester",
+      "email": "tester@adm.com",
+      "password": "adm123",
+      "id": 4
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "ISBN": 9789000307975,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "publication_year": 1960,
+      "genre": [
+        "Fiction",
+        "Classic"
+      ],
+      "summary": "A classic novel depicting racial injustice in the American South.",
+      "image": "https://fakeimg.pl/300x400/cc6600",
+      "price": {
+        "currency": "EUR",
+        "value": 10,
+        "displayValue": "10.00"
+      }
+    },
+    {
+      "id": 2,
+      "ISBN": 9789000307975,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "publication_year": 1960,
+      "genre": [
+        "Fiction",
+        "Classic"
+      ],
+      "summary": "A classic novel depicting racial injustice in the American South.",
+      "image": "https://fakeimg.pl/300x400/cc6600",
+      "price": {
+        "currency": "EUR",
+        "value": 10,
+        "displayValue": "10.00"
+      }
+    },
+    {
+      "id": 3,
+      "ISBN": 9789000307975,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "publication_year": 1960,
+      "genre": [
+        "Fiction",
+        "Classic"
+      ],
+      "summary": "A classic novel depicting racial injustice in the American South.",
+      "image": "https://fakeimg.pl/300x400/cc6600",
+      "price": {
+        "currency": "EUR",
+        "value": 10,
+        "displayValue": "10.00"
+      }
+    },
+    {
+      "id": 4,
+      "ISBN": 9789000307975,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "publication_year": 1960,
+      "genre": [
+        "Fiction",
+        "Classic"
+      ],
+      "summary": "A classic novel depicting racial injustice in the American South.",
+      "image": "https://fakeimg.pl/300x400/cc6600",
+      "price": {
+        "currency": "EUR",
+        "value": 10,
+        "displayValue": "10.00"
+      }
+    }
+  ],
+  "trending": [
+    {
+      "id": 1,
+      "ISBN": 9789000307975,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "publication_year": 1960,
+      "genre": [
+        "Fiction",
+        "Classic"
+      ],
+      "summary": "A classic novel depicting racial injustice in the American South.",
+      "image": "https://fakeimg.pl/300x400/cc6600",
+      "price": {
+        "currency": "EUR",
+        "value": 10,
+        "displayValue": "10.00"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+<app-header></app-header>
+
+<section class="intro-banner bg-light">
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam rerum corrupti minima cumque iste sint iusto, sequi
+    consequuntur facilis sapiente eligendi optio illo repudiandae magni in inventore quas, minus amet?
+</section>
+
+<section>
+    <div class="container">
+        <div>
+            trending
+            <a href="#" routerLink="/product-list/{{keywordTrending}}">See All</a>
+        </div>
+        <div class="row">
+            <div *ngFor="let book of booksList" class="col-md-4 col-xl-3 mb-3">
+                <div routerLink="/product-details/{{book.id}}" class="book-wrapper">
+                    <div class="book-wrapper__image">
+                        <img [src]="book.image" class="img-fluid" alt="...">
+                    </div>
+                    <div class="book-wrapper__body">
+                        <!-- <div class="d-flex">
+                            <div *ngFor="let genre of book.genre" class="book-wrapper__genre me-2 mb-2">
+                                {{genre}}
+                            </div>
+                        </div> -->
+                        <h5 class="book-wrapper__title">
+                            {{book.title}}
+                        </h5>
+                        <div class="book-wrapper__author">
+                            {{book.author}}
+                        </div>
+                        <div class="book-wrapper__price">
+                            <span>{{book?.price?.currency}}</span>
+                            <span>{{book?.price?.displayValue}}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<app-footer></app-footer>
